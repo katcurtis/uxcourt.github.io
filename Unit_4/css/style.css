@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400,400italic);
+
+body{
+	background-image: url("http://i.imgur.com/Axyx7aJ.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	font-family: sans-serif;
+	text-align: center;
+}
+h1{	margin-top: 30vh;
+	font-family: 'Poiret One', cursive;
+}
+p{text-shadow:1px 1px #aaa;font-family: 'Sanchez', serif;}
+ul{}
+li{}
+img{}
+#slogan{font-style:italic;}
+#bg-panel{
+	background-color: rgba(200,200,200,.2);
+	padding-bottom:2em;
+}

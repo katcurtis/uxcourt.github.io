@@ -37,7 +37,7 @@
 		var userMail1 = formArray[0].split('=');
 		var password1 = formArray[1].split('=');
 		var filePath1 = formArray[2].split('=');
-		document.getElementById('FormResults').innerHTML = 'User Account = ' + userMail1[1] + '<br/>Password = ' + password1[1] + '<br/>File Path = ' + filePath1[1];
+		document.getElementById('FormResults').innerHTML = 'User Account = ' + decodeURIComponent(userMail1[1]) + '<br/>Password = ' + password1[1] + '<br/>File Path = ' + decodeURIComponent(filePath1[1]);
 	}
 	valueWriter();
 	</script>
